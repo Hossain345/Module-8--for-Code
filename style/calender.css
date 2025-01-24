@@ -1,0 +1,39 @@
+
+
+body{
+    margin: 20PX;
+    
+}
+.calender{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    border: 2px solid saddlebrown;
+
+    /* grid-template-rows: 30px repeat(5,60px); */
+    padding: 20px;
+    row-gap: 10px;
+    column-gap: 20px;
+}
+.date{
+    background-color: aquamarine;
+    border-radius: 5px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+.day{
+    background-color: goldenrod;
+    border-radius: 5px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+.time{
+    display: flex;
+    justify-content: center;
+}

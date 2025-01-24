@@ -1,0 +1,31 @@
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-bar{
+    margin-bottom: 20px;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid tomato;
+    padding: 20px;
+    width: 50%;
+}
+.login-form input{
+    margin-top: 10px;
+}
+.form-section{
+    display: flex;
+    justify-content: center;
+    border: 2px solid salmon;
+    align-items: center;
+/* full area r 80% jayga se nibe */
+    /* height: 80vh; */
+    height: 80vh;
+}

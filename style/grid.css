@@ -1,0 +1,41 @@
+
+.item{
+    border: 2px solid green;
+    /* padding: 20px; */
+}
+/* .sudhu grid dile kaj korbe na. er sathe grid-template-columns use krte hbe
+   . 1st 100px mane ek column e shob gula rakhbe
+   . 2nd 100px 100px mane se 2 ta column create korbe
+   . 3rd 100px 100px 100px mane se 3 ta column create krbe
+   . 100px / 200px means se tar width 100/200 nibe 
+   
+   . repeat means koyta repeat hbe ta eksathe bole deya 
+   . ekhane 2ta value dite hoy (koybar repeat hbe , width kto tuku hbe)
+   . etar mane holo 2ta 100px kre nibe ar baki gula 300px kre niye nibe by default
+   . dont use [,] 
+
+   . fr means tar nijer mto kre vag kre neya.
+   . 1fr , 2fr = 1fr ja jayga nibe 2fr tar 2gun nibe
+   
+   .
+   */
+.item-div{
+   display: grid;
+   /* grid-template-columns: 100px; */
+   /* grid-template-columns: 100px 100px; */
+   /* grid-template-columns: 100px 100px 100px; */
+   /* grid-template-columns: 100px 100px 100px 200px; */
+
+    /* grid-template-columns: repeat(1,200px); */
+    /* grid-template-columns: repeat(2,200px); */
+    /* grid-template-columns: repeat(2,100px) 300px 500px; */
+
+    /* grid-template-columns: repeat(2,1fr); */
+    /* grid-template-columns: repeat(5,2fr); */
+    /* grid-template-columns: repeat(2,1fr) 2fr; */
+
+    /* grid-template-columns: 200px 100px auto; */
+    grid-template-columns: 200px 200px;
+    /* justify-content: center; */
+    justify-content: end;
+}
